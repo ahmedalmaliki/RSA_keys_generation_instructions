@@ -1,0 +1,25 @@
+RSA key generation formula 
+
+coprime: does not share any factor with
+
+1- two large prime numbers 
+ex: p = 2, q = 7
+N = p * q = 14
+
+2- phi(N) = (p-1)(q-1) = 6
+
+3- e for encryption should satisfy those two rules
+	- 1 < e < phi(N)
+	- coprime with N, phi(N)
+e= 5
+
+4- d for decryption should satisfy:
+	de(mod phi(N)) = 1
+d = 11
+
+
+key 1: (5, 14)
+key 2 : (11, 14)
+
+
+
